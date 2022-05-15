@@ -8,7 +8,7 @@ To install this you will need [python 3](https://www.python.org/downloads/) afte
 You can run the bot after by doing ``python3 main.py``
 
 # Features
-- [ ] Animals
+- [x] Animals
 - [ ] Moderation
 - [ ] Cryptocurrency's
 - [ ] Memes
