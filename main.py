@@ -5,15 +5,19 @@ import discord
 
 load_dotenv()
 
-TOKEN = os.environ.get(["TOKEN"])
+TOKEN = os.environ.get("TOKEN")
 
 client = commands.Bot(command_prefix=".")
 
 # Bot information
 @client.event
 async def on_ready():
-    print('Connected to bot: {}'.format(client.user.name))
-    print('Bot ID: {}'.format(client.user.id))
+    print(f"Connected to bot: {client.user.name}")
+    print(f"Bot ID: {client.user.id}")
+
+for filename in os.listdir("./cogs"):
+    if filename.endswith(".py"):
+        client.load_extension(f"cogs.[filename[:-3]]")
 
 # Starts the bot
 client.run(TOKEN)
