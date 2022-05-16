@@ -9,7 +9,7 @@ You can run the bot after by doing ``python3 main.py``
 
 # Features
 - [x] Animals
-- [ ] Moderation
+- [x] Moderation
 - [ ] Cryptocurrency's
 - [ ] Memes
  
