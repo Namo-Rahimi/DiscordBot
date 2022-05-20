@@ -1,5 +1,3 @@
-from tkinter.tix import Tree
-from turtle import title
 from discord.ext import commands
 import discord
 

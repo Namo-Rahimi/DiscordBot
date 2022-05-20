@@ -10,8 +10,10 @@ You can run the bot after by doing ``python3 main.py``
 # Features
 - [x] Animals
 - [x] Moderation
-- [ ] Cryptocurrency's
+- [x] Cryptocurrency's
 - [ ] Memes
+- [ ] User info
+- [ ] Custom help command
  
 
 ## Contributing
