@@ -11,7 +11,7 @@ You can run the bot after by doing ``python3 main.py``
 - [x] Animals
 - [x] Moderation
 - [x] Cryptocurrency's
-- [ ] Memes
+- [x] Memes
 - [ ] User info
 - [ ] Custom help command
  
